@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B8D27A91F2D859E0063FB25 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B8D27A81F2D859E0063FB25 /* OpenSans-Light.ttf */; };
+		3B8D27AB1F2D85A80063FB25 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B8D27AA1F2D85A80063FB25 /* OpenSans-Regular.ttf */; };
+		3B8D27AD1F2D8AB20063FB25 /* SubjectSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D27AC1F2D8AB20063FB25 /* SubjectSelectViewController.swift */; };
+		3B8D27AF1F2D8BEA0063FB25 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D27AE1F2D8BEA0063FB25 /* SubjectCell.swift */; };
+		3B8D27B11F2E75520063FB25 /* MathAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D27B01F2E75520063FB25 /* MathAnimator.swift */; };
 		9C19F1601CAECED500CC581E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19F15F1CAECED500CC581E /* AppDelegate.swift */; };
-		9C19F1621CAECED500CC581E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19F1611CAECED500CC581E /* ViewController.swift */; };
 		9C19F1651CAECED500CC581E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C19F1631CAECED500CC581E /* Main.storyboard */; };
 		9C19F1671CAECED500CC581E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C19F1661CAECED500CC581E /* Assets.xcassets */; };
 		9C19F16A1CAECED500CC581E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C19F1681CAECED500CC581E /* LaunchScreen.storyboard */; };
@@ -34,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B8D27A81F2D859E0063FB25 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		3B8D27AA1F2D85A80063FB25 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		3B8D27AC1F2D8AB20063FB25 /* SubjectSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectSelectViewController.swift; sourceTree = "<group>"; };
+		3B8D27AE1F2D8BEA0063FB25 /* SubjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = "<group>"; };
+		3B8D27B01F2E75520063FB25 /* MathAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathAnimator.swift; sourceTree = "<group>"; };
 		9C19F15C1CAECED500CC581E /* Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Math.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C19F15F1CAECED500CC581E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C19F1611CAECED500CC581E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C19F1641CAECED500CC581E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C19F1661CAECED500CC581E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C19F1691CAECED500CC581E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,12 +105,11 @@
 		9C19F15E1CAECED500CC581E /* Math */ = {
 			isa = PBXGroup;
 			children = (
-				9C19F15F1CAECED500CC581E /* AppDelegate.swift */,
-				9C19F1611CAECED500CC581E /* ViewController.swift */,
 				9C19F1631CAECED500CC581E /* Main.storyboard */,
-				9C19F1661CAECED500CC581E /* Assets.xcassets */,
-				9C19F1681CAECED500CC581E /* LaunchScreen.storyboard */,
-				9C19F16B1CAECED500CC581E /* Info.plist */,
+				3B8D27AC1F2D8AB20063FB25 /* SubjectSelectViewController.swift */,
+				3B8D27AE1F2D8BEA0063FB25 /* SubjectCell.swift */,
+				3B8D27B01F2E75520063FB25 /* MathAnimator.swift */,
+				9C19F18D1CAECEE100CC581E /* Assets */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -123,6 +130,19 @@
 				9C19F1811CAECED600CC581E /* Info.plist */,
 			);
 			path = MathUITests;
+			sourceTree = "<group>";
+		};
+		9C19F18D1CAECEE100CC581E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9C19F15F1CAECED500CC581E /* AppDelegate.swift */,
+				9C19F1661CAECED500CC581E /* Assets.xcassets */,
+				9C19F1681CAECED500CC581E /* LaunchScreen.storyboard */,
+				9C19F16B1CAECED500CC581E /* Info.plist */,
+				3B8D27AA1F2D85A80063FB25 /* OpenSans-Regular.ttf */,
+				3B8D27A81F2D859E0063FB25 /* OpenSans-Light.ttf */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,18 +208,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "TStevenson Apps";
 				TargetAttributes = {
 					9C19F15B1CAECED500CC581E = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Q443KXN5V7;
+						LastSwiftMigration = 0830;
 					};
 					9C19F16F1CAECED500CC581E = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 						TestTargetID = 9C19F15B1CAECED500CC581E;
 					};
 					9C19F17A1CAECED600CC581E = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 						TestTargetID = 9C19F15B1CAECED500CC581E;
 					};
 				};
@@ -229,8 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8D27AB1F2D85A80063FB25 /* OpenSans-Regular.ttf in Resources */,
 				9C19F16A1CAECED500CC581E /* LaunchScreen.storyboard in Resources */,
 				9C19F1671CAECED500CC581E /* Assets.xcassets in Resources */,
+				3B8D27A91F2D859E0063FB25 /* OpenSans-Light.ttf in Resources */,
 				9C19F1651CAECED500CC581E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C19F1621CAECED500CC581E /* ViewController.swift in Sources */,
+				3B8D27AF1F2D8BEA0063FB25 /* SubjectCell.swift in Sources */,
 				9C19F1601CAECED500CC581E /* AppDelegate.swift in Sources */,
+				3B8D27B11F2E75520063FB25 /* MathAnimator.swift in Sources */,
+				3B8D27AD1F2D8AB20063FB25 /* SubjectSelectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +354,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -349,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -372,8 +402,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -389,9 +421,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -401,10 +434,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Math/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TStevensonApps.Math;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,10 +449,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Math/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TStevensonApps.Math;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -427,6 +468,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TStevensonApps.MathTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Math.app/Math";
 			};
 			name = Debug;
@@ -439,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TStevensonApps.MathTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Math.app/Math";
 			};
 			name = Release;
@@ -450,6 +493,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TStevensonApps.MathUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Math;
 			};
 			name = Debug;
@@ -461,6 +505,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TStevensonApps.MathUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Math;
 			};
 			name = Release;
@@ -484,6 +529,7 @@
 				9C19F1861CAECED600CC581E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C19F1871CAECED600CC581E /* Build configuration list for PBXNativeTarget "MathTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +538,7 @@
 				9C19F1891CAECED600CC581E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C19F18A1CAECED600CC581E /* Build configuration list for PBXNativeTarget "MathUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +547,7 @@
 				9C19F18C1CAECED600CC581E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
