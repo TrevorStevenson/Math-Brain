@@ -10,7 +10,7 @@ import UIKit
 
 class SubjectSelectViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
-    let buttonImages = [#imageLiteral(resourceName: "GeometryButton")]
+    let buttonImages = [#imageLiteral(resourceName: "AlgebraButton"), #imageLiteral(resourceName: "GeometryButton")]
     
     override func viewDidLoad()
     {
@@ -24,10 +24,15 @@ class SubjectSelectViewController: UIViewController, UICollectionViewDelegate, U
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
-        let cell: SubjectCell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! SubjectCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? SubjectCell
         
-        cell.subjectButton.setBackgroundImage(buttonImages[indexPath.row], for: .normal)
+        guard let subCell = cell else
+        {
+            return UICollectionViewCell()
+        }
         
-        return cell
+        subCell.subjectButton.setBackgroundImage(buttonImages[indexPath.row], for: .normal)
+        
+        return subCell
     }
 }

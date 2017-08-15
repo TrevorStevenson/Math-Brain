@@ -11,7 +11,6 @@
 		3B8D27AB1F2D85A80063FB25 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B8D27AA1F2D85A80063FB25 /* OpenSans-Regular.ttf */; };
 		3B8D27AD1F2D8AB20063FB25 /* SubjectSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D27AC1F2D8AB20063FB25 /* SubjectSelectViewController.swift */; };
 		3B8D27AF1F2D8BEA0063FB25 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D27AE1F2D8BEA0063FB25 /* SubjectCell.swift */; };
-		3B8D27B11F2E75520063FB25 /* MathAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D27B01F2E75520063FB25 /* MathAnimator.swift */; };
 		9C19F1601CAECED500CC581E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19F15F1CAECED500CC581E /* AppDelegate.swift */; };
 		9C19F1651CAECED500CC581E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C19F1631CAECED500CC581E /* Main.storyboard */; };
 		9C19F1671CAECED500CC581E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C19F1661CAECED500CC581E /* Assets.xcassets */; };
@@ -42,7 +41,6 @@
 		3B8D27AA1F2D85A80063FB25 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		3B8D27AC1F2D8AB20063FB25 /* SubjectSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectSelectViewController.swift; sourceTree = "<group>"; };
 		3B8D27AE1F2D8BEA0063FB25 /* SubjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = "<group>"; };
-		3B8D27B01F2E75520063FB25 /* MathAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathAnimator.swift; sourceTree = "<group>"; };
 		9C19F15C1CAECED500CC581E /* Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Math.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C19F15F1CAECED500CC581E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C19F1641CAECED500CC581E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				9C19F1631CAECED500CC581E /* Main.storyboard */,
 				3B8D27AC1F2D8AB20063FB25 /* SubjectSelectViewController.swift */,
 				3B8D27AE1F2D8BEA0063FB25 /* SubjectCell.swift */,
-				3B8D27B01F2E75520063FB25 /* MathAnimator.swift */,
 				9C19F18D1CAECEE100CC581E /* Assets */,
 			);
 			path = Math;
@@ -284,7 +281,6 @@
 			files = (
 				3B8D27AF1F2D8BEA0063FB25 /* SubjectCell.swift in Sources */,
 				9C19F1601CAECED500CC581E /* AppDelegate.swift in Sources */,
-				3B8D27B11F2E75520063FB25 /* MathAnimator.swift in Sources */,
 				3B8D27AD1F2D8AB20063FB25 /* SubjectSelectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
